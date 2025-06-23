@@ -1,0 +1,55 @@
+# Maven
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.jpi
+*.hprof
+*.orig
+/hs_err_pid*
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.loadpath
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+*.atom/
+*.code-workspace
+
+# OS
+.DS_Store
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment variables (ako ih koristis u nekom fajlu)
+.env
+
+# *** ISKLJUČIVANJE OSETLJIVIH KONFIGURACIONIH FAJLOVA ***
+# Ukljucuje tvoj application.properties ili application.yml sa kredencijalima
+/src/main/resources/application.properties
+/src/main/resources/application.yml
+# Ako koristis Spring profile, mozda ces hteti da iskljucis i specificne profile
+/src/main/resources/application-dev.properties
+/src/main/resources/application-prod.properties
+# Ako imate druge osetljive fajlove, dodajte ih ovde
